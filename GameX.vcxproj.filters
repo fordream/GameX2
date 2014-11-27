@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameX">
+      <UniqueIdentifier>{cc7e78e1-1b16-42f6-89c1-a69369242be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{7697b2d3-0d9e-46db-b8fa-7c238d4a8f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameX\Header\FunMath">
+      <UniqueIdentifier>{a2c648cd-b5be-4423-b309-05016214f5c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameX.h">
+      <Filter>GameX\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphEngine.h">
+      <Filter>GameX\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>GameX\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine.h">
+      <Filter>GameX\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Fraction.h">
+      <Filter>GameX\Header\FunMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>GameX\Header\FunMath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameX.cpp">
+      <Filter>GameX\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Defines.cpp">
+      <Filter>GameX\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphEngine.cpp">
+      <Filter>GameX\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine.cpp">
+      <Filter>GameX\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
